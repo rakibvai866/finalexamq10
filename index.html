@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUS-10</title>
+</head>
+<body>
+    <h3>What is the CSS box model, and how does it work?</h3>
+    <br><br>
+    <p>
+        The CSS box model is a fundamental concept in CSS that defines the layout and sizing of elements on 
+        a web page. It describes how each HTML element is represented as a rectangular box with content, 
+        padding, border, and margin.
+    </p>
+    <p>
+        1. Content: The actual content of the element, such as text, images, or other HTML elements, is contained within the content box.
+    </p>
+    <p>
+        2. Padding: The padding is a transparent area surrounding the content box. It provides space between the content and the border. You can set the padding using the padding property.
+    </p>
+    <p>
+        3. Border: The border is a line that goes around the padding and content. It separates the element from its neighboring elements. You can set the border using the border property.
+    </p>
+    <p>
+        4. Margin: The margin is a transparent area surrounding the border. It provides space between the element and other elements on the page. You can set the margin using the margin property.
+    </p>
+    <p>
+        The total width of an element is calculated as the sum of the content width, padding, and border. 
+        The total height is calculated as the sum of the content height, padding, and border. The margin 
+        does not affect the total size of the element but influences the spacing between elements.
+    </p>
+    <img src="./image-1.png" alt="image-1">
+    <p>
+        In this example, the total width of the .box element would be 244 pixels (200px width + 2 * 10px 
+        padding + 2 * 2px border), and the total height would be 124 pixels (100px height + 2 * 10px padding 
+        + 2 * 2px border). The element would also have a margin of 20 pixels on all sides, creating space 
+        between neighboring elements.
+    </p>
+    <p>
+        Understanding the CSS box model is essential for precise layout and positioning of elements on a web 
+        page. It allows developers to control how much space each element occupies and how elements interact 
+        with each other in the layout.
+    </p>
+</body>
+</html>
